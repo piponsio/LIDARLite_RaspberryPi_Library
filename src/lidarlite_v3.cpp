@@ -4,7 +4,7 @@
   This library provides quick access to the basic functions of LIDAR-Lite
   via the Raspberry Pi interface. Additionally, it can provide a user of any
   platform with a template for their own application code.
-  
+
   Copyright (c) 2019 Garmin Ltd. or its subsidiaries.
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
 #include <unistd.h>
 #include <stdio.h>
 
-#include <include/lidarlite_v3.h>
+#include <garmin/lidarlite_v3.h>
 
 /*------------------------------------------------------------------------------
   I2C Init

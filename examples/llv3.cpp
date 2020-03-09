@@ -3,7 +3,7 @@
   access to the basic functions of LIDAR-Lite via the Raspberry Pi interface.
   Additionally, it provides users of any platform with a template for their
   own application code.
-  
+
   Copyright (c) 2019 Garmin Ltd. or its subsidiaries.
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
 #include <linux/types.h>
 #include <cstdio>
 
-#include <include/lidarlite_v3.h>
+#include <garmin/lidarlite_v3.h>
 
 LIDARLite_v3 myLidarLite;
 
